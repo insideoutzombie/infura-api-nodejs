@@ -3,7 +3,6 @@
 var Block = require('./block');
 var request = require('superagent');
 var app = require('./app');
-var bodyParser = require('body-parser');
 
 module.exports = (app) => {
   // Watch for incoming requests of method GET and POST
