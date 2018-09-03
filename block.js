@@ -5,16 +5,7 @@ const Schema = mongoose.Schema;
 
 const BlockSchema = new Schema({
   blockName: String,
-
-  // text:{
-  //   type: String,
-  //   required: true,
-  //   minlength: 1,
-  //   trim: true
-  // },
-  // completed: {
-  //   type: Boolean
-  // }
+  resultData: String,
 });
 
 // THIS associates the BlockSchema with mongoose

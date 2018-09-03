@@ -11,8 +11,13 @@
             <input type="text" name="blockName" placeholder="Block data..." required>
             <input type="submit" value="Add Block">
         </form>
+
         <form method="get" action="/api"><br />
-            <input type="submit" value="Call Data">
+            <input type="submit" value="Get Data">
+        </form>
+
+        <form method="post" action="/api/block">
+            <input type="submit" name="resultData" value="Post Data">
         </form>
 
     </body>
