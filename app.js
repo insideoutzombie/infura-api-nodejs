@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var routes = require('./routes');
 var app = express();
-var BlockController = require('./block_controller');
+
 
 // web3 = new Web3("https://api.infura.io/v1/jsonrpc/mainnet/eth_getBlockByNumber", 'Content-Type', 'application/json', 'token', '450589da6a084a62a3e210d65b02192e' );
 
